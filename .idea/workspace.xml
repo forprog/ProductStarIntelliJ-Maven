@@ -1,32 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f6b3dd2-8a10-45b4-ad85-47839e46dd7c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EchoServerOracle/EchoClient2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EchoServerOracle/EchoServer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson22/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson22/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson22/JasonCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson22/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson22/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson22/UserStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson22/YAMLCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson23/DemoHTTPClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson23/EchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson23/EchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson23/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson24/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="0f6b3dd2-8a10-45b4-ad85-47839e46dd7c" name="Changes" comment="Added homework">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson24/HeaderInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson24/NetUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson24/PriceInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson24/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson24/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,18 +46,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/forpr/git/ProductStarIntelliJ-2/src/main&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/forpr/git/ProductStarIntelliJ-2/src/main",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\forpr\git\ProductStarIntelliJ-2\src\main" />
@@ -167,6 +155,36 @@
       <option name="presentableId" value="Default" />
       <updated>1670604588603</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added homework">
+      <created>1671212023230</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671212023230</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added homework">
+      <created>1671212048964</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671212048964</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added homework" />
   </component>
 </project>
