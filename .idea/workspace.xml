@@ -8,12 +8,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f6b3dd2-8a10-45b4-ad85-47839e46dd7c" name="Changes" comment="Added homework">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson24/HeaderInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson24/NetUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson24/PriceInfo.java" afterDir="false" />
+    <list default="true" id="0f6b3dd2-8a10-45b4-ad85-47839e46dd7c" name="Changes" comment="Removed some folders">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson26/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson26/RunnableExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson26/ThreadExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson26/WaitAndNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/BasicThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/CachedThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/CallableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/DaemonFromFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/DaemonThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/FixedThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/LiftOff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/MainThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/MoreBasicThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/SimpleDaemons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/SimplePriorities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/SingleThreadExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/SleepingTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson24/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson24/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,19 +59,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/forpr/git/ProductStarIntelliJ-2/src/main",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/forpr/git/ProductStarIntelliJ-2/src/main&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\forpr\git\ProductStarIntelliJ-2\src\main" />
@@ -70,13 +83,13 @@
       <recent name="Lesson22" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="DemoHTTPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson23.DemoHTTPClient" />
+  <component name="RunManager" selected="Application.DaemonFromFactory">
+    <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Parallelism.CallableDemo" />
       <module name="ProductStarIntelliJ-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson23.*" />
+          <option name="PATTERN" value="Parallelism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson23.EchoClient" />
+    <configuration name="DaemonFromFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Parallelism.DaemonFromFactory" />
       <module name="ProductStarIntelliJ-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson23.*" />
+          <option name="PATTERN" value="Parallelism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JasonCar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson22.JasonCar" />
+    <configuration name="SimpleDaemons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Parallelism.SimpleDaemons" />
       <module name="ProductStarIntelliJ-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson22.*" />
+          <option name="PATTERN" value="Parallelism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson24.Main" />
+    <configuration name="SimplePriorities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Parallelism.SimplePriorities" />
       <module name="ProductStarIntelliJ-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson24.*" />
+          <option name="PATTERN" value="Parallelism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YAMLCar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson22.YAMLCar" />
+    <configuration name="SleepingTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Parallelism.SleepingTask" />
       <module name="ProductStarIntelliJ-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson22.*" />
+          <option name="PATTERN" value="Parallelism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.DemoHTTPClient" />
-        <item itemvalue="Application.EchoClient" />
-        <item itemvalue="Application.YAMLCar" />
-        <item itemvalue="Application.JasonCar" />
+        <item itemvalue="Application.DaemonFromFactory" />
+        <item itemvalue="Application.SimpleDaemons" />
+        <item itemvalue="Application.SimplePriorities" />
+        <item itemvalue="Application.SleepingTask" />
+        <item itemvalue="Application.CallableDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671212048964</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added homework">
+      <created>1671278604835</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671278604835</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
