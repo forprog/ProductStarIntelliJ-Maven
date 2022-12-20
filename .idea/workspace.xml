@@ -8,24 +8,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f6b3dd2-8a10-45b4-ad85-47839e46dd7c" name="Changes" comment="Removed some folders">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson26/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson26/RunnableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson26/ThreadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson26/WaitAndNotify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/BasicThreads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/CachedThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/CallableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/DaemonFromFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/DaemonThreadFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/FixedThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/LiftOff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/MainThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/MoreBasicThreads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/SimpleDaemons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/SimplePriorities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/SingleThreadExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/SleepingTask.java" afterDir="false" />
+    <list default="true" id="0f6b3dd2-8a10-45b4-ad85-47839e46dd7c" name="Changes" comment="Added Parallelism">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/DaemonThreadPoolExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/Daemons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/DaemonsDontRunFinally.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,9 +69,9 @@
       <recent name="Lesson22" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DaemonFromFactory">
-    <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Parallelism.CallableDemo" />
+  <component name="RunManager" selected="Application.DaemonsDontRunFinally">
+    <configuration name="DaemonFromFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Parallelism.DaemonFromFactory" />
       <module name="ProductStarIntelliJ-2" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +83,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DaemonFromFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Parallelism.DaemonFromFactory" />
+    <configuration name="Daemons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Parallelism.Daemons" />
+      <module name="ProductStarIntelliJ-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Parallelism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DaemonsDontRunFinally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Parallelism.DaemonsDontRunFinally" />
       <module name="ProductStarIntelliJ-2" />
       <extension name="coverage">
         <pattern>
@@ -136,26 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SleepingTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Parallelism.SleepingTask" />
-      <module name="ProductStarIntelliJ-2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Parallelism.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DaemonsDontRunFinally" />
+        <item itemvalue="Application.Daemons" />
         <item itemvalue="Application.DaemonFromFactory" />
         <item itemvalue="Application.SimpleDaemons" />
         <item itemvalue="Application.SimplePriorities" />
-        <item itemvalue="Application.SleepingTask" />
-        <item itemvalue="Application.CallableDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671278604835</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Parallelism">
+      <created>1671474177255</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671474177255</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +198,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added homework" />
+    <MESSAGE value="Added Parallelism" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Parallelism" />
   </component>
 </project>
