@@ -1,5 +1,5 @@
 package SpringLikeThing;
 
-public interface PoliceMan {
+public interface Policeman {
     public void makePeopleLeaveRoom();
 }
