@@ -8,10 +8,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f6b3dd2-8a10-45b4-ad85-47839e46dd7c" name="Changes" comment="Added Parallelism">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/DaemonThreadPoolExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/Daemons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/DaemonsDontRunFinally.java" afterDir="false" />
+    <list default="true" id="0f6b3dd2-8a10-45b4-ad85-47839e46dd7c" name="Changes" comment="Added more Parallelism">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/Decreaser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/DecreaserAtomic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/DecreaserSynchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/EvenChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/EvenGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/IntGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/Joining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/Parking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/ResponsiveUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/SynchronizedEvenGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/ZamSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/Announcer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/ConsoleAnnouncer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/CoronaDesinfector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/PoliceMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/PoliceManImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/Room.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +37,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -59,6 +75,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="SpringLikeThing" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\forpr\git\ProductStarIntelliJ-2\src\main" />
     </key>
@@ -69,9 +88,9 @@
       <recent name="Lesson22" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DaemonsDontRunFinally">
-    <configuration name="DaemonFromFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Parallelism.DaemonFromFactory" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="EvenGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Parallelism.EvenGenerator" />
       <module name="ProductStarIntelliJ-2" />
       <extension name="coverage">
         <pattern>
@@ -83,8 +102,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Daemons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Parallelism.Daemons" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SpringLikeThing.Main" />
+      <module name="ProductStarIntelliJ-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SpringLikeThing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResponsiveUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Parallelism.ResponsiveUI" />
       <module name="ProductStarIntelliJ-2" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DaemonsDontRunFinally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Parallelism.DaemonsDontRunFinally" />
+    <configuration name="SynchronizedEvenGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Parallelism.SynchronizedEvenGenerator" />
       <module name="ProductStarIntelliJ-2" />
       <extension name="coverage">
         <pattern>
@@ -109,21 +141,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleDaemons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Parallelism.SimpleDaemons" />
-      <module name="ProductStarIntelliJ-2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Parallelism.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimplePriorities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Parallelism.SimplePriorities" />
+    <configuration name="ZamSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Parallelism.ZamSample" />
       <module name="ProductStarIntelliJ-2" />
       <extension name="coverage">
         <pattern>
@@ -137,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DaemonsDontRunFinally" />
-        <item itemvalue="Application.Daemons" />
-        <item itemvalue="Application.DaemonFromFactory" />
-        <item itemvalue="Application.SimpleDaemons" />
-        <item itemvalue="Application.SimplePriorities" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ZamSample" />
+        <item itemvalue="Application.SynchronizedEvenGenerator" />
+        <item itemvalue="Application.EvenGenerator" />
+        <item itemvalue="Application.ResponsiveUI" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671474177255</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added more Parallelism">
+      <created>1671555067825</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671555067825</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +225,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added homework" />
     <MESSAGE value="Added Parallelism" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Parallelism" />
+    <MESSAGE value="Added more Parallelism" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more Parallelism" />
   </component>
 </project>
