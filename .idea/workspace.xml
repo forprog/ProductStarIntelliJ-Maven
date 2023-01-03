@@ -8,13 +8,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f6b3dd2-8a10-45b4-ad85-47839e46dd7c" name="Changes" comment="ObjectFactory use completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/InjectProperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/Recommendator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/RecommendatorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="0f6b3dd2-8a10-45b4-ad85-47839e46dd7c" name="Changes" comment="Field injection added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/InjectPropertyAnnotationObjectConfigurator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/ObjectConfigurator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SpringLikeThing/ConsoleAnnouncer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/ConsoleAnnouncer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpringLikeThing/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpringLikeThing/JavaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/JavaConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SpringLikeThing/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/ObjectFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -220,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672742285045</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Field injection added">
+      <created>1672748269052</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672748269052</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,7 +247,8 @@
     <MESSAGE value="Added more Parallelism and SpringLike" />
     <MESSAGE value="Added ObjectFactory to SpringLike" />
     <MESSAGE value="ObjectFactory use completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="ObjectFactory use completed" />
+    <MESSAGE value="Field injection added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Field injection added" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
