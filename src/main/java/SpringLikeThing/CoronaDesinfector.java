@@ -1,8 +1,8 @@
 package SpringLikeThing;
 
 public class CoronaDesinfector {
-    private Announcer announcer = new ConsoleAnnouncer();
-    private PoliceMan policeMan = new PoliceManImpl();
+    private Announcer announcer = ObjectFactory.getInstance().createObject(Announcer.class);
+    private PoliceMan policeMan = ObjectFactory.getInstance().createObject(PoliceMan.class);
 
     public void start(Room room){
         announcer.announce("Всем выйти из комнаты!");

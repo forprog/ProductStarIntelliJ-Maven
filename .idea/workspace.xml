@@ -8,26 +8,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f6b3dd2-8a10-45b4-ad85-47839e46dd7c" name="Changes" comment="Added more Parallelism">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/Decreaser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/DecreaserAtomic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/DecreaserSynchronized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/EvenChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/EvenGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/IntGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/Joining.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/Parking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/ResponsiveUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/SynchronizedEvenGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parallelism/ZamSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/Announcer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/ConsoleAnnouncer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/CoronaDesinfector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/PoliceMan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/PoliceManImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/Room.java" afterDir="false" />
+    <list default="true" id="0f6b3dd2-8a10-45b4-ad85-47839e46dd7c" name="Changes" comment="Added more Parallelism and SpringLike">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/JavaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/ObjectFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpringLikeThing/CoronaDesinfector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/CoronaDesinfector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671555067825</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added more Parallelism and SpringLike">
+      <created>1672732266573</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672732266573</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +220,7 @@
     <MESSAGE value="Added homework" />
     <MESSAGE value="Added Parallelism" />
     <MESSAGE value="Added more Parallelism" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added more Parallelism" />
+    <MESSAGE value="Added more Parallelism and SpringLike" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more Parallelism and SpringLike" />
   </component>
 </project>
