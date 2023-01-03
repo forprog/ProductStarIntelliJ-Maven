@@ -1,5 +1,6 @@
 package SpringLikeThing;
 
+@Singleton
 public class RecommendatorImpl implements Recommendator {
     @InjectProperty
     private String alcohol;
