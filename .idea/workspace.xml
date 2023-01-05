@@ -8,20 +8,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f6b3dd2-8a10-45b4-ad85-47839e46dd7c" name="Changes" comment="Added configurators">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/ApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/InjectByType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/InjectByTypeAnnotationObjectConfigurator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/Singleton.java" afterDir="false" />
+    <list default="true" id="0f6b3dd2-8a10-45b4-ad85-47839e46dd7c" name="Changes" comment="Added context and application">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/DeprecatedHandlerProxyConfigurator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/ProxyConfigurator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SpringLikeThing/ConsoleAnnouncer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/ConsoleAnnouncer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SpringLikeThing/CoronaDesinfector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/CoronaDesinfector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SpringLikeThing/InjectPropertyAnnotationObjectConfigurator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/InjectPropertyAnnotationObjectConfigurator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SpringLikeThing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SpringLikeThing/ObjectConfigurator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/ObjectConfigurator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SpringLikeThing/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpringLikeThing/PolicemanImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/PolicemanImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SpringLikeThing/RecommendatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/RecommendatorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpringLikeThing/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/Singleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -243,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672749767282</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added context and application">
+      <created>1672756647355</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672756647355</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,12 +267,14 @@
     <MESSAGE value="ObjectFactory use completed" />
     <MESSAGE value="Field injection added" />
     <MESSAGE value="Added configurators" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added configurators" />
+    <MESSAGE value="Added context and application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added context and application" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="Application">
         <watch expression="implClass.getDeclaredFields()" />
+        <watch expression="implClass.isAnnotationPresent(Singleton.class)" />
       </configuration>
     </watches-manager>
   </component>
