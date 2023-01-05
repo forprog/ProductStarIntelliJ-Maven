@@ -1,5 +1,6 @@
 package SpringLikeThing;
 
+@Deprecated
 public class CoronaDesinfector {
     @InjectByType
     private Announcer announcer;

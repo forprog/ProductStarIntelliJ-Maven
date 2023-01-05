@@ -8,14 +8,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f6b3dd2-8a10-45b4-ad85-47839e46dd7c" name="Changes" comment="Added context and application">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/DeprecatedHandlerProxyConfigurator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/ProxyConfigurator.java" afterDir="false" />
+    <list default="true" id="0f6b3dd2-8a10-45b4-ad85-47839e46dd7c" name="Changes" comment="Added proxy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SpringLikeThing/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/ObjectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SpringLikeThing/PolicemanImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/PolicemanImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SpringLikeThing/RecommendatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/RecommendatorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SpringLikeThing/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpringLikeThing/CoronaDesinfector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/CoronaDesinfector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpringLikeThing/DeprecatedHandlerProxyConfigurator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringLikeThing/DeprecatedHandlerProxyConfigurator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +30,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="47a74056-86da-44cf-8ad4-9224caaf6b50" />
+        <option name="url" value="https://github.com/forprog/ProductStarIntelliJ-Maven.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -244,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672756647355</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added proxy">
+      <created>1672924474618</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1672924474621</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,7 +285,8 @@
     <MESSAGE value="Field injection added" />
     <MESSAGE value="Added configurators" />
     <MESSAGE value="Added context and application" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added context and application" />
+    <MESSAGE value="Added proxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added proxy" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
